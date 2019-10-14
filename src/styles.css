@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #e9ebf2;
+}
+#welcome{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: #50506f;
+    border-radius: 7px;
+    width: 400px;
+}
+#main{
+    margin-top: 2%;
+    margin-left: 35%;
+}
+.inside{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: white;
+    margin-top: 10px;
+    height: 460px;
+    width: 400px;
+}
+.adder{
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    border: none;
+    background-color: #7bed9f;
+    color: white;
+    border-radius: 7px;
+    width: 90px;
+    height: 70px;
+}
+#inputp{
+    border-radius: 7px;
+    width: 400px;
+    padding: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+.inputer{
+    user-select: none;
+    height: 70px;
+    width: 290px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: inset 50px 43px 34px -36px rgba(0,0,0,0.06);
+}
+.inside{
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.inside::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.inside::-webkit-scrollbar
+{
+	width: 3px;
+	background-color: #F5F5F5;
+}
+
+.inside::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+.container{
+    margin-bottom: 10px;
+    color: #50506f;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #F9F9F9;
+    width: 100%;
+}
+.adder:hover{
+    cursor: pointer;
+    transform: scale(.90);
+}
+i:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+}
+i{
+    user-select: none;
+}
